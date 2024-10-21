@@ -1,0 +1,92 @@
+.background{
+    background-color: white;
+    box-shadow: 1px 2px 10px black;
+    width: 400px;
+    height: 430px;
+    margin-left: 470px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.header1{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.fa-brands{
+    font-size: 30px;
+    color: blue;
+    display: flex;
+}
+.head{
+    font-size: 30px;
+    color: blue;
+    display: flex;
+}
+#can{
+    text-align: center;
+}
+.pull{
+    padding-left: 30px;
+}
+.form{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.form-control{
+    width: 300px;
+}
+.form2{
+    width: 340px;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: blue;
+    border: blue;
+}
+.please{
+    text-decoration: none;
+    margin-left: 145px;
+}
+.roller{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.ment{
+    font-size: 20px;
+    color: gray;
+    font-size: 25px;
+}
+.pale{
+    text-align: center;
+}
+#link{
+    text-decoration: none;
+}
+@media (max-width:768px) {
+    .background{
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .form2{
+        width: 290px;
+    }
+    .form-control{
+        width: 290px !important;
+    }
+}
+@media (min-width:768px) {
+    .background{
+        width:400px !important;
+        margin-top: 170px;
+    }
+    .form2{
+        width: 300px !important;
+    }
+    .form-control{
+        width: 300px !important;
+    }
+}
+
+
