@@ -1,92 +1,87 @@
-.background{
+.background {
     background-color: white;
     box-shadow: 1px 2px 10px black;
     width: 400px;
-    height: 430px;
-    margin-left: 470px;
-    margin-top: 10px;
-    border-radius: 5px;
-}
-.header1{
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-}
-.fa-brands{
-    font-size: 30px;
-    color: blue;
-    display: flex;
-}
-.head{
-    font-size: 30px;
-    color: blue;
-    display: flex;
-}
-#can{
-    text-align: center;
-}
-.pull{
-    padding-left: 30px;
-}
-.form{
-    padding-left: 30px;
-    padding-right: 30px;
+    height: 400px;
 }
 
-.form-control{
-    width: 300px;
-}
-.form2{
-    width: 340px;
-    height: 40px;
-    margin-top: 5px;
-    border-radius: 5px;
-    background-color: blue;
-    border: blue;
-}
-.please{
-    text-decoration: none;
-    margin-left: 145px;
-}
-.roller{
+.header1 {
     display: flex;
     justify-content: center;
-    color: gray;
+    align-items: center;
+}
+
+.fa-brands {
+    font-size:30px;
+}
+
+.head {
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+#can {
+    text-align:center;
+}
+
+.form-control {
+    width: 300px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+.form{
+    display: flex !important;
+    justify-content: center !important;
+}
+.for{
+    display: flex !important;
+    justify-content: center !important;
+}
+.form2 {
+    margin-top:5px;
+    width:300px !important;
+    height:40px;
+    border:none;
+    background-color: blue;
+    border-radius:5px;
+}
+.pull{
+    display: flex;
+    justify-content:space-evenly;
+}
+.please {
+    text-decoration:none;
+    display:flex;
+    justify-content:center;
+}
+.roller{
+    display:flex;
+    justify-content:center;
 }
 .ment{
-    font-size: 20px;
-    color: gray;
-    font-size: 25px;
+    color:gray;
+    font-size:20px;
+}
+.roll{
+    color:gray;
+    font-size:20px;
 }
 .pale{
+    font-size: 10px;
     text-align: center;
-}
-#link{
-    text-decoration: none;
 }
 @media (max-width:768px) {
     .background{
-        margin-left: 50px;
-        margin-top: 10px;
+    box-shadow: 0px 0px 0px white !important;
     }
-    .form2{
-        width: 290px;
-    }
-    .form-control{
-        width: 290px !important;
-    }
+    /* .pull{
+        margin-left: 75px !important;
+    } */
+
 }
 @media (min-width:768px) {
     .background{
-        width:400px !important;
-        margin-top: 170px;
-    }
-    .form2{
-        width: 300px !important;
-    }
-    .form-control{
-        width: 300px !important;
+        width: 400px !important;
+        margin-top: 150px;
     }
 }
-
-
